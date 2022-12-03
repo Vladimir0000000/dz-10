@@ -11,3 +11,20 @@ li {
     list-style-type : none ;
 }
     
+.img-wrapper_left{
+    position: relative;
+}
+
+.img-left {
+    position: absolute;
+}
+
+.background-left{
+    position: absolute;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: blueviolet;
+    width: 20rem;
+    height: 20rem;
+}
+
