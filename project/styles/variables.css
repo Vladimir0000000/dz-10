@@ -1,9 +1,23 @@
 :root {
-    --primary-color : ;
-    --primary-bg : ;
+    --primary-color :#292929 ;
+    --secondary-color:#925FF0;
+    --color:#E9DFFC;
+
+    --primary-bg : #F4EFFE;
+    --secondary-bg : #292929;
+
     --font-family-size : ;
     --font-size-size : ;
-    --margin-size : ;
-    --padding-size : ;
+
+    --margin-xl :4rem ;
+    --margin-l :3rem ;
+    --margin-m :1.5rem ;
+    --margin-s :0.6em ;
+
+    --padding-xl :3rem ;
+    --padding-l :2rem ;
+    --padding-m :1rem ;
+    --padding-s :0.6em ;
+    
 }
     
