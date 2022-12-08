@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: 'Poppins' ;
+    src: url(../public/fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'anton';
+    src: url(../public/fonts/Anton/Anton-Regular.ttf);
+}
+
 :root {
     --primary-color :#292929 ;
     --secondary-color:#925FF0;
@@ -6,8 +16,13 @@
     --primary-bg : #F4EFFE;
     --secondary-bg : #292929;
 
-    --font-family-size : ;
-    --font-size-size : ;
+    --font-family-primary : 'anton';
+    --font-family-secondary: 'Poppins';
+
+    --font-size-xl :4rem ;
+    --font-size-l :3rem ;
+    --font-size-m :1.5rem ;
+    --font-size-s :0.6em ;
 
     --margin-xl :4rem ;
     --margin-l :3rem ;
@@ -18,6 +33,5 @@
     --padding-l :2rem ;
     --padding-m :1rem ;
     --padding-s :0.6em ;
-    
 }
     

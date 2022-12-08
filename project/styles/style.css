@@ -26,17 +26,29 @@ body{
     border-bottom: 2px solid var(--secondary-color);
 }
 
-.logo-weapper{
+.logo-wrapper{
     display: flex;
     align-items: center;
     margin: var(--margin-m);
     margin-left: var(--margin-xl);
 }
 
-.nav-item {
-    padding: var(--padding-m);
+.logo-title {
+    font-family: var( --font-family-secondary);
+    margin-left: var(--margin-s);
 }
 
+.nav-item {
+    padding: var(--padding-m);
+    font-family: var(--font-family-secondary);
+}
+
+.nav-item:hover{
+    color: var(--color);
+    border-color: currentColor;
+    background-color: var(--secondary-color);
+}
+  
 .button-wrapper {
     margin-right: var(--margin-xl);
 }
@@ -46,12 +58,27 @@ body{
     color: var(--secondary-color);
     background-color: var(--color);
     padding: var(--padding-s);
+    font-family: var(--font-family-secondary);
+    cursor: pointer;
+}
+
+.button:hover{
+  color: var(--color);
+  border-color: currentColor;
+  background-color: var(--secondary-color);
+}
+
+.button:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
 }
 
 .product-designer{
     display: flex;
     justify-content: space-between;
     height: 90vh;
+    border-bottom: 2px solid #292929;
+    padding-bottom: 42.2rem;
 }
     
 .img-wrapper_left{
@@ -61,7 +88,7 @@ body{
 .img-left {
     position: absolute;
     width: 22rem;
-    margin-top: var(--margin-m);
+    margin-top: 26px;
 }
 
 .background-left{
@@ -79,6 +106,7 @@ body{
     margin-left: 23.5rem;
     font-size: 5rem;
     color: #925FF0;
+    font-family: var(--font-family-primary);
 }
 
 
@@ -101,5 +129,70 @@ body{
 .img-right{
     position: absolute;
     width: 22rem;
+    margin-top: 18px;
+}
+
+.andrea-mendez{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description-block-1{
+    width: 34rem;
+    margin-left: var(--margin-xl);
+}
+
+.description-title{
+    font-size: var(--font-size-l);
+    font-family: var(--font-family-primary);
+}
+
+.purple-block {
+    width: 4rem;
+    height: 1.5rem;
+    background-color: #925FF0;
+}
+
+.discription-wrapper {
+    margin-top: var(--margin-xl);
+}
+
+.description {
     margin-top: var(--margin-m);
 }
+
+.andrea-img__wrapper {
+    margin: var(--margin-l);
+}
+
+.history {
+    display: flex;
+}
+
+.space-img__wrapper{
+    margin: var(--margin-l);
+}
+
+.description-block-2{
+    width: 34rem;
+    margin-top: var(--margin-l);
+    margin-left: var(--margin-m);
+}
+
+.footer {
+    background-color: var(--secondary-bg);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__nav-wrapper {
+    margin-right:var(--margin-l);
+}
+
+.footer__nav {
+    margin-right: var(--margin-m);
+}
+
